@@ -1,1 +1,17 @@
 i'm fater. starter.
+
+
+리눅스 명령어
+
+ls : 목록보기
+cd : 폴더 이동
+
+--------
+
+git add *
+git commit -m 'add'
+git push origin master
+
+.
+
+git pull origin
