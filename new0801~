@@ -15,3 +15,108 @@ git push origin master
 .
 
 git pull origin
+
+user@user-M720S:~$ ls
+1        Documents  examples.desktop  Pictures  Templates
+Desktop  Downloads  Music             Public    Videos
+user@user-M720S:~$ cd
+user@user-M720S:~$ ls document
+ls: cannot access document: No such file or directory
+user@user-M720S:~$ cd Document
+bash: cd: Document: No such file or directory
+user@user-M720S:~$ cd Documents
+user@user-M720S:~/Documents$ ls
+bb  shin
+user@user-M720S:~/Documents$ shin
+No command 'shin' found, did you mean:
+ Command 'thin' from package 'thin' (universe)
+shin: command not found
+user@user-M720S:~/Documents$ Shin
+No command 'Shin' found, did you mean:
+ Command 'thin' from package 'thin' (universe)
+Shin: command not found
+user@user-M720S:~/Documents$ ls shin0801
+ls: cannot access shin0801: No such file or directory
+user@user-M720S:~/Documents$ cd Documents
+bash: cd: Documents: No such file or directory
+user@user-M720S:~/Documents$ ls
+bb  shin
+user@user-M720S:~/Documents$ shin
+No command 'shin' found, did you mean:
+ Command 'thin' from package 'thin' (universe)
+shin: command not found
+user@user-M720S:~/Documents$ cd shin
+user@user-M720S:~/Documents/shin$ ls
+new0801  REAMDE.md  REAMDE.md~
+user@user-M720S:~/Documents/shin$ 
+user@user-M720S:~/Documents/shin$ 
+user@user-M720S:~/Documents/shin$ cd
+user@user-M720S:~$ ls
+1        Documents  examples.desktop  Pictures  Templates
+Desktop  Downloads  Music             Public    Videos
+user@user-M720S:~$ cd Documnets
+bash: cd: Documnets: No such file or directory
+user@user-M720S:~$ cd Documents
+user@user-M720S:~/Documents$ ls
+bb  shin
+user@user-M720S:~/Documents$ shin
+No command 'shin' found, did you mean:
+ Command 'thin' from package 'thin' (universe)
+shin: command not found
+user@user-M720S:~/Documents$ cd shin
+user@user-M720S:~/Documents/shin$ ls
+new0801  new0801~  new08012  REAMDE.md  REAMDE.md~
+user@user-M720S:~/Documents/shin$ new08012
+new08012: command not found
+user@user-M720S:~/Documents/shin$ add git 
+No command 'add' found, did you mean:
+ Command 'ldd' from package 'libc-bin' (main)
+ Command 'dd' from package 'coreutils' (main)
+ Command 'amd' from package 'am-utils' (universe)
+ Command 'ddd' from package 'ddd' (universe)
+ Command 'tdd' from package 'devtodo' (universe)
+ Command 'atd' from package 'at' (main)
+ Command 'aid' from package 'id-utils' (universe)
+ Command 'and' from package 'and' (universe)
+ Command 'ad' from package 'netatalk' (universe)
+ Command 'axd' from package 'afnix' (universe)
+add: command not found
+user@user-M720S:~/Documents/shin$ git add *
+user@user-M720S:~/Documents/shin$ push origin master
+The program 'push' is currently not installed.  You can install it by typing:
+sudo apt-get install heimdal-clients
+user@user-M720S:~/Documents/shin$ cd git
+bash: cd: git: No such file or directory
+user@user-M720S:~/Documents/shin$ comment-m add 
+comment-m: command not found
+user@user-M720S:~/Documents/shin$ ls
+new0801  new0801~  new08012  REAMDE.md  REAMDE.md~
+user@user-M720S:~/Documents/shin$ git add *
+user@user-M720S:~/Documents/shin$ git commit -m 'add'
+[master 4cae962] add
+ Committer: user <user@user-M720S.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 22 insertions(+)
+ create mode 100644 new08012
+ create mode 100644 new0801~
+user@user-M720S:~/Documents/shin$ git push origin master
+Username for 'https://github.com': Shi000
+Password for 'https://Shi000@github.com': 
+fatal: Authentication failed
+user@user-M720S:~/Documents/shin$ git push origin master
+Username for 'https://github.com': Shin000
+Password for 'https://Shin000@github.com': 
+To https://github.com/Shin000/linuxstudy.git
+   3f76dec..4cae962  master -> master
+user@user-M720S:~/Documents/shin$ 
+
